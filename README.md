@@ -1,29 +1,18 @@
-# bandaumnikov
+Перед обедом нам сложно определиться, куда сходить поесть. Каждый раз одно и то же — начинаем вспоминать все места вокруг. Как далеко туда идти, какая там кухня и сколько в среднем стоит бизнес ланч, да и есть ли он вообще. Вот бы сделать сервис, который случайно выбирает новый вариант кафешки. Уверен, что мы будем не всегда согласны с выбором сервиса и захотим еще раз испытать удачу.
 
-This template should help get you started developing with Vue 3 in Vite.
+Сверстайте пример web-приложения на основе базы кафешек. В приложении мы видим все варианты где поесть и можем «попросить» сервис выбрать случайное кафе. Сервисом будем пользоваться как на десктопе, так и на мобильных устройствах.
 
-## Recommended IDE Setup
+Есть ещё задание «со звездочкой», оно и не обязательное: сделать так, чтобы выбранным вариантом кафе можно было поделиться с друзьями.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Api с данными по кафе
+Список всех:  https://bandaumnikov.ru/api/test/site/get-index 
+По id можно получить данные по отдельному зваедению https://bandaumnikov.ru/api/test/site/get-view?id=1 
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Технические особенности
+Решение прислать двумя ссылками: на репозиторий и работающую страницу.  
+Используйте Vue.js (все наши сайты на Vue).
+Можно использовать готовые библиотеки компонентов.
+Можно использовать npm/yarn, webpack и другие сборщики модулей, и даже Vue CLI.
+Приветствуется использование ES6+ возможностей спецификации и современных возможностей CSS.
+Нельзя использовать jQuery.
